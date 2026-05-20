@@ -31,7 +31,8 @@ img {
 .container {
   width: 85%;
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 1500px;
+  position: relative;
 }
 
 a {
