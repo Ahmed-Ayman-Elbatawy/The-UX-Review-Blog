@@ -157,7 +157,7 @@ ul {
 #mobile-menu .menu {
   background-color: white;
   border-left: solid 4px black;
-  width: 30%;
+  width: 50%;
   height: 100%;
 }
 
@@ -1295,25 +1295,13 @@ h1 {
   }
 
   #hero .content {
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 40px;
   }
 
   #hero .content .caption {
-    flex-wrap: wrap;
-    /* width: 150%; */
-  }
-
-  #hero .content .title {
-    width: 200%;
-  }
-
-  #hero .content .title p {
-    width: 110%;
-    font-size: 15px;
-  }
-
-  #hero .content .hero-btns {
-    width: 110%;
+    max-width: 100%;
+    width: 100%;
   }
 
   #hero .content .hero-btns button {
@@ -1324,21 +1312,16 @@ h1 {
 
   #latest-articles .parent {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 40px;
   }
 
-  #latest-articles .main {
-    flex-wrap: wrap;
+  #latest-articles .parent .main {
     width: 100%;
-  }
-
-  #latest-articles .main .articles {
-    width: 150%;
   }
 
   #latest-articles .main .articles .article {
-    width: 100%;
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 
   #latest-articles .main .content .icons-state {
@@ -1347,10 +1330,6 @@ h1 {
 
   #latest-articles .parent .side-bar {
     width: 100%;
-  }
-
-  #latest-articles .main .btn {
-    width: 150%;
   }
 
   /* Authors */
