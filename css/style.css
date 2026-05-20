@@ -32,7 +32,6 @@ img {
   width: 85%;
   margin: 0 auto;
   max-width: 1500px;
-  position: relative;
 }
 
 a {
@@ -414,7 +413,7 @@ h1 {
   background-color: #e9e591;
   position: absolute;
   bottom: 80px;
-  left: 80px;
+  left: 50px;
   transform: rotate(45deg);
 }
 
